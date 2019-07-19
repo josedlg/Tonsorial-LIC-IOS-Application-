@@ -16,6 +16,8 @@
 		443B6FA3224D0155004E670A /* Tonsorial_LICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B6FA2224D0155004E670A /* Tonsorial_LICTests.swift */; };
 		443B6FAE224D0155004E670A /* Tonsorial_LICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B6FAD224D0155004E670A /* Tonsorial_LICUITests.swift */; };
 		443B6FBC224D0BC4004E670A /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B6FBB224D0BC4004E670A /* SideMenuVC.swift */; };
+		4445CE0222DE9DB400EBB1C5 /* products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445CE0122DE9DB400EBB1C5 /* products.swift */; };
+		445E573122BAF01700BB6D5F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E573022BAF01700BB6D5F /* Contact.swift */; };
 		44A6A0F322519F5D007B51E8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6A0F222519F5D007B51E8 /* MainVC.swift */; };
 		44CEA55B22B9C9E5004098BF /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA55A22B9C9E5004098BF /* AboutUs.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,8 @@
 		443B6FAD224D0155004E670A /* Tonsorial_LICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tonsorial_LICUITests.swift; sourceTree = "<group>"; };
 		443B6FAF224D0155004E670A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443B6FBB224D0BC4004E670A /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		4445CE0122DE9DB400EBB1C5 /* products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = products.swift; sourceTree = "<group>"; };
+		445E573022BAF01700BB6D5F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		44A6A0F222519F5D007B51E8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		44CEA55A22B9C9E5004098BF /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +119,8 @@
 				443B6F99224D0155004E670A /* Info.plist */,
 				4416E19022701644005C1DA0 /* ViewController.swift */,
 				44CEA55A22B9C9E5004098BF /* AboutUs.swift */,
+				445E573022BAF01700BB6D5F /* Contact.swift */,
+				4445CE0122DE9DB400EBB1C5 /* products.swift */,
 			);
 			path = "Tonsorial LIC";
 			sourceTree = "<group>";
@@ -273,7 +279,9 @@
 				44A6A0F322519F5D007B51E8 /* MainVC.swift in Sources */,
 				44CEA55B22B9C9E5004098BF /* AboutUs.swift in Sources */,
 				443B6F8E224D0150004E670A /* AppDelegate.swift in Sources */,
+				4445CE0222DE9DB400EBB1C5 /* products.swift in Sources */,
 				443B6FBC224D0BC4004E670A /* SideMenuVC.swift in Sources */,
+				445E573122BAF01700BB6D5F /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,8 @@ class MainVC: UIViewController {
         RoundCornerButton.layer.cornerRadius = 4
         
     }
+    
+    
     @objc  func showAboutUs(){
         performSegue(withIdentifier: "ShowAboutUs", sender: nil)
         
@@ -48,9 +50,16 @@ class MainVC: UIViewController {
         NotificationCenter.default.post(name: NSNotification.Name("ToggleSideMenu"), object: nil)
     }
     
+    @IBAction func MakeCall(_ sender: Any) {
+        guard let number  = URL(string: "tel://13476546386") else {return}
+        UIApplication.shared.open(number,options: [:], completionHandler:nil)
+        
+    }
     @IBOutlet weak var RoundCornerButton: UIButton!
     //func generateCorners(){
         
        // RoundCornerButton.layer.cornerRadius = 4
     //}
 }
+
+
