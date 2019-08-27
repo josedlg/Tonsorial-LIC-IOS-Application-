@@ -455,7 +455,7 @@
 		443B6FB3224D0155004E670A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G787PCNL33;
 				INFOPLIST_FILE = "Tonsorial LIC/Info.plist";
@@ -473,7 +473,7 @@
 		443B6FB4224D0155004E670A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G787PCNL33;
 				INFOPLIST_FILE = "Tonsorial LIC/Info.plist";
