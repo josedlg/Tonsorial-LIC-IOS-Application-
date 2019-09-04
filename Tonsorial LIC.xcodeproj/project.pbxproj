@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,9 +17,13 @@
 		443B6FAE224D0155004E670A /* Tonsorial_LICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B6FAD224D0155004E670A /* Tonsorial_LICUITests.swift */; };
 		443B6FBC224D0BC4004E670A /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B6FBB224D0BC4004E670A /* SideMenuVC.swift */; };
 		4445CE0222DE9DB400EBB1C5 /* products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445CE0122DE9DB400EBB1C5 /* products.swift */; };
+		444D64F923198E2A0026B3DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 444D64F823198E2A0026B3DD /* GoogleService-Info.plist */; };
 		445E573122BAF01700BB6D5F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E573022BAF01700BB6D5F /* Contact.swift */; };
 		44A6A0F322519F5D007B51E8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6A0F222519F5D007B51E8 /* MainVC.swift */; };
+		44AC4155231D99E70089D61B /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC4154231D99E70089D61B /* PushNotificationManager.swift */; };
+		44C5D3012316E310007E0F0D /* barbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5D3002316E310007E0F0D /* barbers.swift */; };
 		44CEA55B22B9C9E5004098BF /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA55A22B9C9E5004098BF /* AboutUs.swift */; };
+		A8CCB3F5E322AE132A63239B /* Pods_Tonsorial_LIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E88B32E6EC04C100A87474A /* Pods_Tonsorial_LIC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +60,16 @@
 		443B6FAF224D0155004E670A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443B6FBB224D0BC4004E670A /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		4445CE0122DE9DB400EBB1C5 /* products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = products.swift; sourceTree = "<group>"; };
+		444D64F823198E2A0026B3DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		445E573022BAF01700BB6D5F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		449D215F231D76AA002F51D6 /* Tonsorial LIC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tonsorial LIC.entitlements"; sourceTree = "<group>"; };
 		44A6A0F222519F5D007B51E8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		44AC4154231D99E70089D61B /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		44C5D3002316E310007E0F0D /* barbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barbers.swift; sourceTree = "<group>"; };
 		44CEA55A22B9C9E5004098BF /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		450D3ABC05D6D7408250DEE6 /* Pods-Tonsorial LIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonsorial LIC.debug.xcconfig"; path = "Target Support Files/Pods-Tonsorial LIC/Pods-Tonsorial LIC.debug.xcconfig"; sourceTree = "<group>"; };
+		5E88B32E6EC04C100A87474A /* Pods_Tonsorial_LIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tonsorial_LIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C08EFA0D7749AABEF3449DE /* Pods-Tonsorial LIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonsorial LIC.release.xcconfig"; path = "Target Support Files/Pods-Tonsorial LIC/Pods-Tonsorial LIC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CCB3F5E322AE132A63239B /* Pods_Tonsorial_LIC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A47E9743EEEB55E841A2892 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				450D3ABC05D6D7408250DEE6 /* Pods-Tonsorial LIC.debug.xcconfig */,
+				7C08EFA0D7749AABEF3449DE /* Pods-Tonsorial LIC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		443B6F81224D0150004E670A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +114,8 @@
 				443B6FA1224D0155004E670A /* Tonsorial LICTests */,
 				443B6FAC224D0155004E670A /* Tonsorial LICUITests */,
 				443B6F8B224D0150004E670A /* Products */,
+				3A47E9743EEEB55E841A2892 /* Pods */,
+				84E93B6021ABACE9D80E5689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +132,7 @@
 		443B6F8C224D0150004E670A /* Tonsorial LIC */ = {
 			isa = PBXGroup;
 			children = (
+				449D215F231D76AA002F51D6 /* Tonsorial LIC.entitlements */,
 				443B6F8D224D0150004E670A /* AppDelegate.swift */,
 				443B6F8F224D0150004E670A /* ContainerVC.swift */,
 				443B6FBB224D0BC4004E670A /* SideMenuVC.swift */,
@@ -121,6 +145,9 @@
 				44CEA55A22B9C9E5004098BF /* AboutUs.swift */,
 				445E573022BAF01700BB6D5F /* Contact.swift */,
 				4445CE0122DE9DB400EBB1C5 /* products.swift */,
+				44C5D3002316E310007E0F0D /* barbers.swift */,
+				444D64F823198E2A0026B3DD /* GoogleService-Info.plist */,
+				44AC4154231D99E70089D61B /* PushNotificationManager.swift */,
 			);
 			path = "Tonsorial LIC";
 			sourceTree = "<group>";
@@ -143,6 +170,14 @@
 			path = "Tonsorial LICUITests";
 			sourceTree = "<group>";
 		};
+		84E93B6021ABACE9D80E5689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E88B32E6EC04C100A87474A /* Pods_Tonsorial_LIC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 443B6FB2224D0155004E670A /* Build configuration list for PBXNativeTarget "Tonsorial LIC" */;
 			buildPhases = (
+				39F91ACB5B5A7BA226858EB5 /* [CP] Check Pods Manifest.lock */,
 				443B6F86224D0150004E670A /* Sources */,
 				443B6F87224D0150004E670A /* Frameworks */,
 				443B6F88224D0150004E670A /* Resources */,
+				0A9248225822D69E0408595A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +248,14 @@
 				TargetAttributes = {
 					443B6F89224D0150004E670A = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					443B6F9D224D0155004E670A = {
 						CreatedOnToolsVersion = 10.0;
@@ -248,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443B6F98224D0155004E670A /* LaunchScreen.storyboard in Resources */,
+				444D64F923198E2A0026B3DD /* GoogleService-Info.plist in Resources */,
 				443B6F95224D0155004E670A /* Assets.xcassets in Resources */,
 				443B6F93224D0150004E670A /* Main.storyboard in Resources */,
 			);
@@ -269,6 +315,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A9248225822D69E0408595A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonsorial LIC/Pods-Tonsorial LIC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonsorial LIC/Pods-Tonsorial LIC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tonsorial LIC/Pods-Tonsorial LIC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F91ACB5B5A7BA226858EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tonsorial LIC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		443B6F86224D0150004E670A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,8 +364,10 @@
 			files = (
 				4416E19122701644005C1DA0 /* ViewController.swift in Sources */,
 				443B6F90224D0150004E670A /* ContainerVC.swift in Sources */,
+				44AC4155231D99E70089D61B /* PushNotificationManager.swift in Sources */,
 				44A6A0F322519F5D007B51E8 /* MainVC.swift in Sources */,
 				44CEA55B22B9C9E5004098BF /* AboutUs.swift in Sources */,
+				44C5D3012316E310007E0F0D /* barbers.swift in Sources */,
 				443B6F8E224D0150004E670A /* AppDelegate.swift in Sources */,
 				4445CE0222DE9DB400EBB1C5 /* products.swift in Sources */,
 				443B6FBC224D0BC4004E670A /* SideMenuVC.swift in Sources */,
@@ -454,17 +544,23 @@
 		};
 		443B6FB3224D0155004E670A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450D3ABC05D6D7408250DEE6 /* Pods-Tonsorial LIC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Tonsorial LIC/Tonsorial LIC.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Manual;
 				DEVELOPMENT_TEAM = G787PCNL33;
 				INFOPLIST_FILE = "Tonsorial LIC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "DLGTECH.Tonsorial-LIC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tonsorial-LIC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Deploy Demo Tonsorial LIC";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -472,17 +568,23 @@
 		};
 		443B6FB4224D0155004E670A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C08EFA0D7749AABEF3449DE /* Pods-Tonsorial LIC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Tonsorial LIC/Tonsorial LIC.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Manual;
 				DEVELOPMENT_TEAM = G787PCNL33;
 				INFOPLIST_FILE = "Tonsorial LIC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "DLGTECH.Tonsorial-LIC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tonsorial-LIC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Deploy Demo Tonsorial LIC";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
