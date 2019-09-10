@@ -1,14 +1,16 @@
 //
-//  products.swift
+//  barbers.swift
 //  Tonsorial LIC
 //
-//  Created by Jose Delaguarda on 7/16/19.
+//  Created by Jose Delaguarda on 8/28/19.
 //  Copyright © 2019 DLGTECH. All rights reserved.
 //
 
+
 import UIKit
 
-class products: UIViewController {
+class barbers : UIViewController {
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         
@@ -18,4 +20,6 @@ class products: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    
 }
