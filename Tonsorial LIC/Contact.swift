@@ -16,7 +16,7 @@ class Contact: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://goo.gl/maps/anbVAdkSFseouPj58")
+        let url = URL(string: "https://www.eventbrite.com/o/lic-tonsorial-24930644401")
         let request = URLRequest(url: url!)
         
         webView.load(request)

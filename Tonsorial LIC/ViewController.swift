@@ -20,7 +20,9 @@ class ViewController: UIViewController{
         
     let url = URL(string: "https://lictonsorial.resurva.com/book")
         let request = URLRequest(url: url!)
-        
-        WebView.load(request)
+                WebView.load(request)
+       
     }
+    
+
 }
