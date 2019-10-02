@@ -25,7 +25,18 @@ class ContainerVC: UIViewController {
         }else {
             sideMenuOpen = true
             sideMenuConstraint.constant = 0
+            UIView.animate(withDuration: 0.03,animations: { self.view.layoutIfNeeded()})
         }
+    }
+    @objc func tapGestureAction(){
+        if sideMenuOpen{
+            sideMenuOpen = false
+            sideMenuConstraint.constant = -208
+        }else {
+            sideMenuOpen = true
+            sideMenuConstraint.constant = 0
+        }
+        
     }
 
 }
