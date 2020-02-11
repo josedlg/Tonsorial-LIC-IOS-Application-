@@ -1,6 +1,5 @@
 
 LIC Tonsorial Barbershop 
-
-<a href="https://giphy.com/gifs/gLE7fGcUKfuu72nzFF">via GIPHY</a></p>
+<a href="https://imgflip.com/gif/3ot037"><img src="https://i.imgflip.com/3ot037.gif" title="made at imgflip.com"/></a>
 
 
